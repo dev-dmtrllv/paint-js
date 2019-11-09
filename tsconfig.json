@@ -1,0 +1,56 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"target": "es6",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"jsx": "react",
+		"baseUrl": ".",
+		"experimentalDecorators": true,
+		"paths": {
+			"engine": [
+				"engine"
+			],
+			"engine/*": [
+				"engine/*"
+			],
+			"utils": [
+				"utils"
+			],
+			"utils/*": [
+				"utils/*"
+			],
+			"components": [
+				"app/components"
+			],
+			"components/*": [
+				"app/components/*"
+			],
+			"views": [
+				"app/views"
+			],
+			"views/*": [
+				"app/views/*"
+			],
+			"stores": [
+				"app/stores"
+			],
+			"stores/*": [
+				"app/stores/*"
+			]
+		}
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
